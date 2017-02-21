@@ -1,0 +1,6 @@
+{
+    "level" : "debug",
+    "fileName" : "log.txt",
+    "directory" : "logs",
+    "mongoose":true
+}
