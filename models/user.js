@@ -4,6 +4,7 @@ var UserSchema = mongoose.Schema({
     lastName: String,
     midlleName: String,
     identityCode: String,
+    image: { data: Buffer, contentType: String },
     age: Number,
     gender: ['M', 'F'],
     email: {type: String, unique:true},
