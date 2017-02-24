@@ -5,3 +5,7 @@ module.exports.save = function(model, done){
     user.firstName = model.firstName;
     user.save(done);
 };
+
+module.exports.getAll = function(done){
+    User.find(done);
+}
